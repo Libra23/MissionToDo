@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './MakeToDo.css';
 
-class MakeToDo extends Component {
+export default class MakeToDo extends Component {
 
   render() {
     return(
@@ -15,5 +15,3 @@ class MakeToDo extends Component {
     )
   }
 }
-
-export default MakeToDo

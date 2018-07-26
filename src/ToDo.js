@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './ToDo.css';
 
-class ToDo extends Component {
+export default class ToDo extends Component {
 
   render() {
     return(
@@ -17,5 +17,3 @@ class ToDo extends Component {
       </li>)
     }
   }
-
-  export default ToDo

@@ -4,7 +4,7 @@ import './App.css';
 import MakeToDo from './MakeToDo';
 import ToDoList from './ToDoList';
 
-class App extends Component {
+export default　class App extends Component {
 
   constructor() {
     super()
@@ -69,5 +69,3 @@ class App extends Component {
     return date.getTime()
   }
 }
-
-export default App
